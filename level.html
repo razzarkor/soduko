@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Levels Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div id="navbardiv" class=" sticky-top">
+        <nav id="navbar" class="navbar p-0 row">
+            <div id="title" class="col-2 p-0 ml-3">
+               <p id="titleText" class="m-0 p-1 text-light font-weight-bold ">Soduko Game</p>
+            </div>
+            <div id="buttons" class="btn-group col-4"> <!--לתקן צבעים ללבן ואדום-->
+               <button id="home" class="btn m-0 p-0 mr-2 shadow-none" onclick="location.href='index.html';" >Home</button>
+               <button id="Tutorial" class="btn m-0 p-0 mr-2"><a class="text-decoration-none" >Tutorial</a></button> <!--tutorial video link --> 
+        </div>
+        <div class="col"></div>
+    </nav>
+    </div>
+    <div id="leveloptions">
+        <h1 id="header">Welcome </h1>
+        <h2 id="header2"> choose a level:</h2>
+        <button id="Easy"  onclick="goToSudokuPage(20)">Easy</button>
+        <button id="Medium" onclick="goToSudokuPage(40)">Medium</button>
+        <button id="Hard" onclick="goToSudokuPage(60)">Hard</button>
+    </div>
+
+    <script src='levelscript.js'></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+/* #difficulty{
+    background-color: #343a40;
+} */
+
+#body{ 
+    background-repeat: no-repeat;
+}
+
+#navbardiv {
+    background: #e93838;
+    width: 100%;
+    position: fixed;
+    height: 64px;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14);
+    z-index: 5;
+    top: 0;
+  }
+
+#home{
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 14px;
+    min-height: 40px;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+#Tutorial{
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 14px;
+    min-height: 40px;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+#loginTitle{
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#tutorialV{
+  display:flex;
+  border: #a62626 2px ; 
+  margin-top: 10%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#usererror{
+    color: red;
+}
+#passworderror{
+    color: red;
+}
+
+
+/*soduko table */
+tr>td:not(:first-child){
+    border-left : 1px solid #D3D3D3;
+ }
+ tbody>tr:not(:last-child){
+    border-bottom: 1px solid #D3D3D3;
+ }
+ tr>td:nth-child(3),tr>td:nth-child(6){
+    border-right: 2px solid black;
+ }
+ tbody>tr:nth-child(3),tbody>tr:nth-child(6){
+     border-bottom: 2px solid black;
+ }
+ td,th{
+   padding: 0;
+ }
+ .board-area{
+   margin:auto; 
+   width:fit-content;
+   height:fit-content;
+   position: relative;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   border: 5px solid #e93838;
+ }
+ .game-board input[type="text"] {
+   width: 70px; 
+   height: 50px;
+   font-size:40px;
+   padding: none;
+   text-align: center;
+   border: none;
+   margin: auto;
+   border: none;
+   color: transparent;
+   text-shadow: 0 0 0 gray;
+   text-align: center;
+
+ }
+ .game-board input[type="text"]:focus{
+   background-color:rgba(155, 216, 255,.2);
+   margin-bottom:-1px;
+ }
+ .game-board input[type="text"].highlight{
+   background-color:rgba(155, 216, 255,.2);
+ }
+ .game-board input[type="text"].selected{
+   background-color:rgba(143, 239, 91,.2);
+ }
+ .button-row{
+   text-align:center;
+   width:450px;
+   /* padding:40px; */
+    position: relative;
+   top: 50px; 
+   left: 50px; 
+ }
+ .btn1{
+   width: 110px;
+   background-color:white;
+   color:#a62626;
+   border-color:#a62626;
+   font-weight:500;
+   letter-spacing:2px;
+   border:solid;
+   border-radius:5px;
+   border-width:1px;
+   position: relative;
+   left: 410px;
+   top: 30px;
+   padding: 10px;
+  text-align: center;
+ }
+ 
+ .btn1:hover, .btn1:active,.btn1:focus{
+   background-color:white;
+ }
+ 
+ select{
+   background-color: #FF4742;
+   position: relative;
+   top: 10px;
+   border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 14px;
+    min-height: 40px;
+    padding: 12px 14px;
+    text-align: center;
+    margin-bottom: 10px;
+ }

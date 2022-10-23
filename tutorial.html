@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tutorial</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div id="navbardiv" class=" sticky-top">
+        <nav id="navbar" class="navbar p-0 row">
+            <div id="title" class="col-2 p-0 ml-3">
+               <p id="titleText" class="m-0 p-1 text-light font-weight-bold ">Soduko Game</p>
+            </div>
+            <div id="buttons" class="btn-group col-4"> <!--לתקן צבעים ללבן ואדום-->
+               <button id="home" class="btn m-0 p-0 mr-2 shadow-none" onclick="location.href='index.html';" >Home</button>
+               <button id="Tutorial" class="btn m-0 p-0 mr-2"><a class="text-decoration-none" >Tutorial</a></button> <!--tutorial video link -->
+    
+             <div id="difficulty"> <!--choose difficulty-->
+                <!-- <select > שים את זה בעמוד של המשחק עצמו שלא יצור באגים לפני כניסה למשץ
+                    <option>Difficulty</option>
+                    <option>1-Easy</option>
+                    <option>2-Intermadiate</option>
+                    <option>3-Hard</option>
+                </select> -->
+            </div> 
+        </div>
+        <div class="col"></div>
+    </nav>
+    <div id ="tutorialV">
+     <iframe  width="445" height="345"
+      src="https://www.youtube.com/embed/kvU9_MVAiE0">
+      
+     </iframe>
+      
+
+    </div>
+
+   
+    <script src='script.js'></script>
+</body>
+</html>
